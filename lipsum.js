@@ -87,12 +87,13 @@ if (typeof lipsumjs == 'undefined')lipsumjs = {};
         return commaIndexes;
     };
 
-    parent.getWords = function (min_words, max_words) {
+    parent.getWords = function (min_words, max_words, wordsbase) {
 
+        if(typeof wordsbase == 'undefined')wordsbase = parent.words;
         var num_words = Math.floor(Math.random() * (max_words - min_words)) + min_words;
         var words = [];
         for (var wn = 0; wn < num_words; wn++) {
-            var word = this.words[Math.floor(Math.random() * this.words.length)];
+            var word = wordsbase[Math.floor(Math.random() * wordsbase.length)];
             words.push(word);
         }
         return words;
