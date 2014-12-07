@@ -1,0 +1,26 @@
+{
+  "name": "lipsum-js",
+  "version": "1.0.0",
+  "authors": [
+    "andrienko <ilia.andrienko@gmail.com>"
+  ],
+  "description": "A really tiny function for generating Lorem-ipsum text.",
+  "main": "lipsum.js",
+  "keywords": [
+    "lorem",
+    "ipsum",
+    "dolor",
+    "sit",
+    "amet",
+    "lipsum"
+  ],
+  "license": "MIT",
+  "homepage": "http://andrienko.org",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
