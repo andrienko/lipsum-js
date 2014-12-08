@@ -35,3 +35,23 @@ Building own sentences
     var commas = lipsumjs.getCommaIndexes(words_array.length);
     lipsumjs.buildSentenceFromWords(words_array, commas);
     
+Lipsum tag and data attributes
+---
+
+Just add the lipsum_tag.js after lipsum.js to your page and everything that has data-lipsum attribute will have a
+paragraph of lipsum text in its content:
+
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <script type="text/javascript" src="lipsum.js"></script>
+        <script type="text/javascript" src="lipsum_tag.js"></script>
+    </head>
+    <body>
+    
+    <p data-lipsum>This text will be replaced with lipsum text</p>
+    
+    </body>
+    </html>
+    
+Feel free to modify it to add customizations, eh?
