@@ -13,6 +13,10 @@
     "lipsum",
     "placeholder"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrienko/lipsum-js.git"
+  },
   "license": "MIT",
   "homepage": "http://andrienko.org",
   "ignore": [
