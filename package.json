@@ -1,0 +1,33 @@
+{
+  "name": "lipsum-js",
+  "version": "1.0.0",
+  "description": "Simple lorem ipsum generator",
+  "main": "lipsum.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrienko/lipsum_js.git"
+  },
+  "keywords": [
+    "lorem",
+    "ipsum",
+    "dolor",
+    "sit",
+    "amet",
+    "lipsum",
+    "placeholder"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrienko/lipsum_js/issues"
+  },
+  "homepage": "https://github.com/andrienko/lipsum_js",
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "gulp-rename": "^1.2.0",
+    "gulp-run": "^1.6.4"
+  }
+}
